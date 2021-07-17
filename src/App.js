@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import firebase from "firebase";
+import { db } from "./Firebase";
+import Table from "./Table";
+import SiderMenu from "./Sider";
 
 function App() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  const handleForm = (e) => {
+    e.preventDefault();
+
+    db.collection("users").add({
+      name,
+      email,
+      timestamp: firebase.firestore.Timestamp.fromDate(new Date()),
+    });
+    setName("");
+    setEmail("");
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SiderMenu />
     </div>
   );
 }
