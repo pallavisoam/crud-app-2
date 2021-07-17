@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pallavisoam/crud-app-2.git/static/css/main.97394be5.chunk.css",
+    "main.js": "/pallavisoam/crud-app-2.git/static/js/main.ecd91b91.chunk.js",
+    "main.js.map": "/pallavisoam/crud-app-2.git/static/js/main.ecd91b91.chunk.js.map",
+    "runtime-main.js": "/pallavisoam/crud-app-2.git/static/js/runtime-main.658570d2.js",
+    "runtime-main.js.map": "/pallavisoam/crud-app-2.git/static/js/runtime-main.658570d2.js.map",
+    "static/css/2.af9592cd.chunk.css": "/pallavisoam/crud-app-2.git/static/css/2.af9592cd.chunk.css",
+    "static/js/2.747ae54f.chunk.js": "/pallavisoam/crud-app-2.git/static/js/2.747ae54f.chunk.js",
+    "static/js/2.747ae54f.chunk.js.map": "/pallavisoam/crud-app-2.git/static/js/2.747ae54f.chunk.js.map",
+    "static/js/3.823f1d24.chunk.js": "/pallavisoam/crud-app-2.git/static/js/3.823f1d24.chunk.js",
+    "static/js/3.823f1d24.chunk.js.map": "/pallavisoam/crud-app-2.git/static/js/3.823f1d24.chunk.js.map",
+    "index.html": "/pallavisoam/crud-app-2.git/index.html",
+    "static/css/2.af9592cd.chunk.css.map": "/pallavisoam/crud-app-2.git/static/css/2.af9592cd.chunk.css.map",
+    "static/css/main.97394be5.chunk.css.map": "/pallavisoam/crud-app-2.git/static/css/main.97394be5.chunk.css.map",
+    "static/js/2.747ae54f.chunk.js.LICENSE.txt": "/pallavisoam/crud-app-2.git/static/js/2.747ae54f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.658570d2.js",
+    "static/css/2.af9592cd.chunk.css",
+    "static/js/2.747ae54f.chunk.js",
+    "static/css/main.97394be5.chunk.css",
+    "static/js/main.ecd91b91.chunk.js"
+  ]
+}
